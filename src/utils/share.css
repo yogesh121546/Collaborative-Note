@@ -1,0 +1,170 @@
+/* share box */
+.share-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.share-box{
+    height: 500px;
+    width : 500px;
+    position:fixed;
+    z-index: 1;
+    background-color: rgb(237, 237, 237);
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    transform: translate(-50%, -50%);
+}
+
+.share-box-p{
+    font-size: larger;
+    padding:5px;
+    margin:5px;
+    /* margin-left: 15px; */
+}
+.share-box-input{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    
+}
+.share-box-input input{
+    height:30px;
+    width: 80%;
+    font-size: large;
+    outline: black;
+    border-color: black;
+    border-radius: 10px;
+    margin:5px;
+    padding:5px;
+    
+}
+
+.share-box-input select{
+    height: 42px;
+    width: 20%;
+    margin-left: auto;
+    margin:5px;
+    margin-top:auto;
+    margin-bottom :auto;
+    border: 1px black solid;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+}
+.share-box-input select:hover{
+    cursor:pointer;
+}
+
+
+
+.access-list{
+    width:500px;
+    justify-content: center;
+    text-align: center;
+    height: 330px;
+    /* display: flex;
+    flex-direction: row; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+.access-list select{
+    height: 25px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 1px solid black;
+}
+.access-list select:hover{
+    cursor:pointer;
+}
+.access-list li{
+    display: flex;
+    flex-direction: row;
+    padding:5px;
+    height: 30px;
+    background-color: white;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.5);
+    margin:4px;
+    
+    /* border: 1px solid black; */
+}
+.access-list option{
+    border: 1px solid black;
+    border-radius: none;
+    padding:5px;
+    background-color: white;
+}
+
+.access-list li:hover{
+    background-color: rgb(205, 205, 205);
+   
+}
+.owner{
+    margin-left: auto;
+    border: 1px solid black;
+    padding:2px;
+    /* padding: 5px; */
+    /* margin-right: 10px; */
+}
+
+.access-list p {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+.share-box-button-container{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    margin:10px;
+}
+
+.share-box-done-button{
+    margin-left:265px;
+    /* margin-right: 10px; */
+    background-color: black;
+    color:white;
+    width:100px;
+    border-radius: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding:10px;
+    /* margin-bottom: auto; */
+}
+.share-box-copy-button:hover{
+    background-color: rgb(205, 205, 205);  
+
+}
+.share-box-copy-button{
+    border-radius: 20px;
+    padding:10px;
+    width:100px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 16px;
+}
+.share-box button:hover{
+    cursor:pointer;
+}

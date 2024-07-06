@@ -1,0 +1,126 @@
+.card{
+    width: 200px ;
+    height: 260px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    /* position:relative; */
+}
+.card:hover{
+    cursor: pointer;
+    border: 1px black solid;
+}
+
+.card-main-title{
+    background-color: yellow;
+    height:25px;
+    display: block;
+    margin-top: 0px;
+    white-space: nowrap;      /* Prevents text from wrapping to the next line */
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    text-align: center;
+}
+.card-main-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.card-details-container img {
+    height:30px;
+    width:30px;
+    border-radius: 5px;
+}
+/* .card-logo{
+    height:30px;
+    width:30px;
+    border-radius: 5px;
+} */
+.card-details-container{
+    height:30px;
+    display:flex;
+    flex-direction: row;
+    
+    
+}
+.card-info-logo{
+    margin-left:auto;
+    float:right;
+}
+
+.card-details-container p{
+    background-color: white;
+    margin:auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    height: 30px;
+   /* white-space: nowrap;      Prevents text from wrapping to the next line */
+   overflow: hidden;         /* Hides the overflowed text */
+   text-overflow: ellipsis;
+   font-size: small;
+}
+.cards-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    margin:auto;
+    gap: 20px;
+    width:max-content;
+    justify-content: center;
+    background-color: lightgray;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding : 20px;
+  
+}
+.recent-container{
+   
+        display: grid;
+        grid-template-columns: auto auto auto auto auto ;
+        margin:auto;
+        gap: 20px;
+        width:max-content;
+        justify-content: center;
+        background-color: lightgray;
+        margin-top: 200px;
+        margin-bottom: 20px;
+        padding : 20px;
+        /* overflow-y: auto; */
+        /* height:500px; */
+
+    
+}
+
+
+/* INFo card */
+
+.info-card{
+    height: 120x;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    position:absolute;
+    top:100px;
+    left : 50px;
+    z-index: 1;
+
+    /* position:absolute; */
+    box-shadow: 0 2px 2px -2px #000000;
+    margin:10px;
+    /* z-index: 0; */
+}
+.info-card ul li {
+    text-decoration: none;
+    list-style-type:none;
+    background-color: white;
+    height:30px;
+    text-align: center;
+    padding:5px;
+    align-items: center;
+    
+}
+.info-card li:hover{
+    background-color: rgb(205, 205, 205);
+}

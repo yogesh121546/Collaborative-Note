@@ -1,0 +1,29 @@
+.user-menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-user-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 150px;
+  }
+  
+  .dropdown-user-menu button {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-user-menu button:hover {
+    background-color: black;
+    color: white;
+  }
+  

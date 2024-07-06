@@ -1,0 +1,146 @@
+.loader{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    align-items: center;
+    margin: left = auto;
+    margin: right  = auto;
+    justify-content: center;
+    text-align: center;
+}
+/* 
+css for form  */
+form{
+    border: none;
+    height: 400px;
+    width:300px;
+    text-align: center;
+    align-items: center;
+    border-radius:30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: hsla(0, 0%, 30%, 0.5);
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 2px -2px #000000;
+}
+
+form p{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+    margin:10px;
+    padding:10px;
+    color:white;
+}
+
+.input-field{
+    padding:2%;
+    margin:2%;
+    text-align: left;
+}
+
+.input-field p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color:white
+}
+.input-field input:focus{
+    outline:none;
+}
+.input-field input{
+    box-shadow: 0 2px 2px -2px #000000;
+    border-radius: 19.2px;
+    padding:12px;
+    width:92%;
+    border:none;
+    border-collapse: collapse;
+}
+
+.form-button{
+    border-radius: 19.2px;
+    padding:10px;
+    width:92%;
+    height: 40px;
+    border:none;
+    margin-top: 10px;
+    font-size: medium;
+}
+.form button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+}
+.form-button:hover{
+    background-color: rgba(231, 230, 230, 0.893);
+    cursor:pointer;
+}
+.redirect-link{
+    text-align: right;
+    padding:5px;
+    color:white;
+    font-size: small;
+}
+a{
+    text-align: right;
+    padding:5px;
+    color:white;
+    font-size: small;
+}
+.form-button:active{
+    background-color: black;
+    color:white;
+}
+form a:active{
+    color:rgba(255, 228, 196, 0.845);
+}
+body{
+    /* background-image: url("./assets/p.jpeg"); */
+    background-size: cover;
+}
+.Oauth-button{
+    background-color: white;
+    display:flex; 
+    flex-direction:row;
+    /* margin:8%; */
+    margin: auto;
+    width: 92%;
+    border-radius: 40px ;
+    
+}
+.Oauth-button:hover{
+    cursor: pointer;
+    background-color: rgba(231, 230, 230, 0.893);
+}
+.Oauth-button:active{
+    background-color: black;
+    p{
+        color:white;
+    }
+    .google-icon{
+        color:white;
+    }
+}
+
+
+.google-icon{
+    margin-left: 10%;
+    width:40px;
+    height:40px;
+    border-radius: 40px;
+    
+}
+
+.Oauth-button p{
+    margin-left:20px;
+    color:black;
+    margin-top:auto;
+    margin-bottom: auto;
+    
+   
+}
