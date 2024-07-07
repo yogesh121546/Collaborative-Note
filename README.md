@@ -74,8 +74,9 @@ The app is deployed on Render. You can access the live version [here](https://co
 2. **Create Notes**: Click on the " Create New Note" button to create a new note.
 3. **Edit Notes**: Click on any note to edit its content.
 5. **Share Notes**: Use the share button to share notes with other users.
-6. **See Edit History**: Click on history icon and see the previous edit history by various users.
-7. **Real-Time Collaboration**: Collaborate with other users in real-time by editing shared notes.
+6. **Share Notes with accessType**: users can be set to either viewer or editor 
+7. **See Edit History**: Click on history icon and see the previous edit history by various users.
+8. **Real-Time Collaboration**: Collaborate with other users in real-time by editing shared notes.
 
 ## Contributing
 
