@@ -1,0 +1,139 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(1, 145, 1);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(1, 79, 1);
+  }
+  li a:active{
+    background-color:rgb(1, 79, 1) ;
+  }
+
+.share_doc_root {
+    border: 2px solid;
+    position: absolute;
+    width:35%;
+    height:200px;
+    background-color: rgb(152, 255, 100);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 20px;
+    display:none ;
+}
+.cross_sign_share_doc{
+    height:25px; 
+    width:auto;
+}
+.cross_sign{
+    height:25px;
+    width:25px;
+    float:right;
+    border-top-right-radius: 19px;
+    
+
+}
+.cross_sign:hover{
+    background-color: red;
+}
+
+.cross_sign::before{ 
+    content:"\2716";
+    color:black;
+    margin-left:5px;
+    
+    /* margin-top:11.2px; */
+    
+}
+
+.share_doc_input_root{
+    height:25px;
+    display:flex;
+    margin-top:2px;
+}
+#share_doc_input_text{
+    width: 75%;
+    margin-left:5px;
+    margin-right:1px;
+  
+}
+input{
+    height:36.8px;
+    border-radius: 20px;
+    font-size: larger;
+    padding-left: 15px;
+}
+
+#share_doc_add_button{
+    width:25%; 
+    height:40px;
+    margin-right: 5px;
+    margin-left: 1px;
+    border-radius: 20px;
+    font-size: larger;
+    
+}
+#share_doc_add_button:hover{
+    background-color: rgb(1, 145, 1);
+    color:white;
+}
+#share_doc_add_button:active{
+    background-color: rgb(1, 79, 1);
+    color:white;
+}
+#share_user{
+ height: 25px;
+ width: 25px;
+ padding-top: 10px;
+ float:right;
+}
+#sharedpng{
+    float:right;
+    margin-right: 10px;
+    
+}
+#sharedpng:hover{
+    background-color: rgb(152, 255, 100);
+}
+#sharedpng:active{
+    background-color: rgb(1, 79, 1);
+}
+#w3review{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: larger;
+}
+#online_users_list{
+    margin:auto;
+    padding:5px;
+    position: relative;
+    top:10%;
+    left:10%;
+}
