@@ -10,6 +10,7 @@ function App() {
  return (
     <Router>
         <Routes>
+          <Route exact path='/' element={<Form formType={{isLogin:true,isSignUp:false,isOtp:false}}/>} />
           <Route exact path='/login' element={<Form formType={{isLogin:true,isSignUp:false,isOtp:false}}/>} />
           <Route path='/home' element={<HomePage/>} />
           <Route path='/editor' element={<><EditorPage/></>} />
