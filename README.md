@@ -20,7 +20,6 @@ Collaborative Note-Taking App is a web application that allows multiple users to
   
 - Maintains the edit history of the notes
   ![Screen Recording - Jul 7, 2024](https://github.com/yogesh121546/Collaborative-Note/assets/99672941/bc8e0ffa-63b2-474c-b92c-1ef96b61d508)
-cb-5e556dfd2bf3
   
 
 ## Tech Stack
@@ -52,11 +51,11 @@ cb-5e556dfd2bf3
 4. Create .env file with your own credentials with help of .env.example
     
 5. Run the app locally:
-    -Backend
+    - Backend
     ```bash
     npm start
     ```
-    -Frontend
+    - Frontend
     ```bash
     npm run dev
     ```
