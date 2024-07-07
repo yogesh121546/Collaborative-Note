@@ -15,7 +15,7 @@ const getToken = async_wrapper(async (req,res)=>{
           code:req.query.code,
           client_id: process.env.googleClientId,
           client_secret: process.env.googleClientSecret,
-          redirect_uri: `${process.env.redirect_uri}/google/auth/callback`, 
+          redirect_uri: `${process.env.BACKEND_SERVER_URI}/google/auth/callback`, 
           grant_type: "authorization_code",
         };
         const qs = new URLSearchParams(values);
