@@ -79,11 +79,6 @@ The app is deployed on Render. You can access the live version [here](https://co
 7. **See Edit History**: Click on history icon and see the previous edit history by various users.
 8. **Real-Time Collaboration**: Collaborate with other users in real-time by editing shared notes.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure your code adheres to the project's coding standards.
-
-
 ## Contact
 
 For any inquiries or issues, please contact [yogeshkumawats291@gmail.com].
